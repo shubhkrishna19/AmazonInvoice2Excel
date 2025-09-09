@@ -319,9 +319,7 @@ def main():
                     # Show extracted data preview
                     st.subheader("📋 Extracted Data Preview")
                     df_preview = pd.DataFrame(results)
-                    st.dataframe(df_preview, width="stretch")git add -A
-git commit -m "Force redeployment: update app with latest files"
-
+                    st.dataframe(df_preview, width="stretch")
                     
                     # Create and offer Excel download
                     excel_file = create_excel_file(results)
